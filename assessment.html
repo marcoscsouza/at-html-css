@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3d4898b8f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="modernizr-custom.js"></script>
+    <title>Assessment - questões</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="res-menu" />
+        <label for="res-menu">
+          <i class="fa fa-bars" id="sign-one"></i>
+          <i class="fa fa-times" id="sign-two"></i>
+        </label>
+        <picture>
+          <img src="/imagens/favicon.ico" alt="" />
+        </picture>
+        <h1>dados abertos</h1>
+        <ul>
+          <li><a onclick="" href="#experiencia">Experiência</a></li>
+          <li><a onclick="" href="#responsividade">Responsividade</a></li>
+          <li><a onclick="" href="#multimidia">Multimídia</a></li>
+          <li><a onclick="" href="#avancados">Avançados</a></li>
+          <li><a onclick="" href="./index.html">câmara dos deputados</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="experiencia">
+        <div class="wrapper">
+          <div class="col-a">
+            <h1>Experiência</h1>
+          </div>
+          <div class="col-d">
+            <h3>Minha experiência sobre o conteúdo da disciplina</h3>
+            <p>
+              A Principal dificuldade foi não ter conhecimento sobre css e html
+              prévio, foi muito difícil compreender como funciona o sistema em
+              cascata para que um elemento não seja modificado de forma
+              impropria.
+            </p>
+            <p>
+              Facilidade foi ja ter experiência saber procurar informação de
+              forma correta e gravar tantos as tag semânticas, assim como
+              entender algumas propriedades de css.
+            </p>
+            <p>
+              Umas das descobertas foi ter aprendido sobre seletores como media
+              query e pseudo classes. Com elas podemos fazer muitas coisas
+              avançadas.
+            </p>
+            <p>
+              Minha afinidade com css aumentou 100%, primeira vez que tentei
+              fazer uma landing page, cheguei a desistir por causa do tamanho do
+              css, mas depois fui vendo que deixando tudo o mais organizado
+              possível evita repetir muito código posteriormente.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="responsividade">
+        <div class="wrapper">
+          <div class="col-a">
+            <h1>Design Responsivo</h1>
+          </div>
+          <div class="col-d">
+            <h3>
+              Quando é recomendando a criação de um site separado para mobile?
+              Seria este o caso deste site da Câmara de Deputados?
+            </h3>
+            <p>
+              Sempre devemos dar prioridade para o mobile, devido a alta demanda
+              onde a grande maioria dos usuários usarem ser o mobile, devemos
+              inclusive começar nossa criação de site por esse estilo (mobile
+              first).
+            </p>
+
+            <h3>
+              No caso de um CSS específico para impressão (print), como ele deve
+              ser inserido?
+            </h3>
+            <p>
+              Podemos fazer usando outra folha de estilo ou atraves de media
+              types. Abrir e fechar automaticamente uma janela popup quando
+              finalizado.
+            </p>
+            <p>
+              Precisa ser feito a configuração da pagina de impressão, fazendo
+              um reset dos estilos, fazendo um controle do layout, configurando
+              outro estilo para os textos,
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="multimidia">
+        <div class="wrapper">
+          <div class="col-a">
+            <h1>Multimídia Web</h1>
+          </div>
+          <div class="col-d">
+            <h3>
+              O elemento audio permite como elemento-filho o elemento source.
+              Quais são os atributos que o source permite e qual conteúdo eles
+              suportam? Quais os outros atributos do elemento audio e quando
+              devem ser utilizados?
+            </h3>
+            <p>src: endereço do arquivo de mídia, type: o tipo do arquivo</p>
+            <p>
+              controls: para poder controlar o audio, played: indicando que o
+              audio foi todo reproduzido, src: a URL do audio a ser usado.
+            </p>
+
+            <h3>
+              O elemento video permite como elemento-filho o elemento source.
+              Quais são os atributos que o source permite e qual conteúdo eles
+              suportam? Quais os outros atributos do elemento video e quando
+              devem ser utilizados?
+            </h3>
+            <p>src: endereço do arquivo de mídia, type: o tipo do arquivo</p>
+            <p>
+              controls: para poder controlar o audio, played: indicando que o
+              audio foi todo reproduzido, height: altura da area de exibição do
+              video, width: largura da area de exibição do video, src: a URL do
+              video a ser usado.
+            </p>
+
+            <h3>
+              No caso do canvas, HTML 5 nunca, em momento algum, fez qualquer
+              animação. Isso porquê o HTML 5 é uma simples linguagem de
+              marcação. Dessa forma, o que é necessário para criar animações com
+              HTML5? O que são APIs do HTML5?
+            </h3>
+            <p>
+              Para ser feita as animações com o uso do canvas precisamos usar
+              uma linguagem de programação para desenhar dentro dessa tag, no
+              caso o JavaScript.
+            </p>
+            <p>
+              As APIs do HTML5 são maneiras de atualizar os dados dos pixels em
+              elemento HTML de forma programática, podendo construir cenas 2d e
+              3d. Exemplos são o próprio canvas e WebGL.
+            </p>
+            <h3>
+              Como o CSS3 pode ser aplicado na aparência da multimídia HTML5.
+              Demonstre com um exemplo.
+            </h3>
+            <div class="video">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/4wDEG1MHlII"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="avancados">
+        <div class="wrapper">
+          <div class="col-a">
+            <h1>Recursos avançados</h1>
+          </div>
+          <div class="col-d">
+            <h3>
+              Faça uma breve descrição dos elementos/propriedades utilizadas e
+              quais navegadores não são compatíveis com eles.
+            </h3>
+            <p>
+              Scroll-behavior - serve para deixar a rolagem quando clica em
+              algum link mais suave - Browsers não suportados: IE(todos),
+              Edge(12-18), chrome(4 - 60) e safari(3.1 - 15.3)
+            </p>
+            <p>
+              FlexBox - serve para facilitar o posicionamento de elementos de
+              forma flexível - Browsers não suportados: IE(6 - 9), Opera(10 -
+              11.5) e Opera Mobile(12)
+            </p>
+            <p>
+              Flex Gap - serve para criar espaçamento entre os elementos dentro
+              de um container flexbox - Browsers não suportados: IE(todos),
+              Edge(12-83), Chrome(4-83) e Safari(3.1-14)
+            </p>
+            <p>
+              Media Querys - serve para consulta com base na presença do
+              apontador do usuário - Browsers não suportados: IE(todos),
+              Firefox(2-63), Chrome(4-40) e Safari(3.1-8)
+            </p>
+            <p>
+              Grid - serve para montar a grade de layout em linhas e colunas -
+              Browsers não suportados: IE(6-9), firefox(2-51), Chrome(4-56) e
+              Safari(3.1-10)
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Instituto INFNET - Assessment Interfaces com HTML e CSS</p>
+    </footer>
+  </body>
+</html>
