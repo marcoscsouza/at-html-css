@@ -2,7 +2,6 @@
 
 ## Landing page
 
-- vamos ver como fica
 
 ### Descrição
 
